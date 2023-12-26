@@ -30,7 +30,7 @@ export const TopMenu = () => {
 
       <div className='flex items-center'>
         <Link className='mx-2' href='/search'>
-          <IoSearchOutline classname='w-5 h-5' />
+          <IoSearchOutline className='w-5 h-5' />
         </Link>
 
         <Link className='mx-2' href='/cart'>
@@ -38,7 +38,7 @@ export const TopMenu = () => {
             <span className='absolute text-xs rounded-full px-1 font-bold -top-2 -right-2 bg-blue-700 text-white'>
               3
             </span>
-            <IoCartOutline classname='w-5 h-5' />
+            <IoCartOutline className='w-5 h-5' />
           </div>
         </Link>
 
